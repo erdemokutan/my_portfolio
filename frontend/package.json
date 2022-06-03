@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "npm run build && rm -rf output static && next export -o output && mv output static && python integration_script.py -d static"
+    
   },
   "author": "MG",
   "license": "MIT",
@@ -28,8 +30,20 @@
     "prop-types": "^15.8.1",
     "react": "^17.0.2",
     "react-countdown": "^2.3.2",
+    "react-countdown-circle-timer": "^3.0.9",
     "react-dom": "^17.0.2",
+    "react-glitch-animation": "^1.0.0",
+    "react-glitch-effect": "^3.1.0",
+    "react-glitch-text": "^0.1.81",
+    "react-glitchify": "^2.4.18",
     "react-lazy-load-image-component": "^1.5.1",
-    "react-leaflet": "^3.2.5"
-  }
+    "react-leaflet": "^3.2.5",
+    "react-typing-effect": "^2.0.5"
+  },
+  "engines": {
+    "node": "16.14.0",
+    "npm": "8.3.1"
 }
+
+}
+

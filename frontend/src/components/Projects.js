@@ -188,6 +188,8 @@ const Projects = () => {
                 </Grid>
             </Box>
             <Divider />
+
+            
         </div>
     );
 };

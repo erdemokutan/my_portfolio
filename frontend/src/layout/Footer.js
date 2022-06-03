@@ -42,12 +42,16 @@ const Footer = () => {
                                 <ListItemButton>
                                     <ListItemText 
                                         primary={
+                                            
+                                            
                                             <Typography 
                                                 variant='body2'
                                                 color={theme.palette.text.secondary}
                                             >
+                                                
                                                 {new Date().getFullYear()} Erdem Okutan.
                                             </Typography>
+                                            
                                         }
                                     />
                                 </ListItemButton>

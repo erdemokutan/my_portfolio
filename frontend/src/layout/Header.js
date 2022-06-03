@@ -97,6 +97,8 @@ const Header = ({ onSidebarOpen }) => {
                                 variant='h3' 
                                 component='div' 
                                 sx={{ 
+                                    fontSize: '1.5rem',
+                                    filter: 'drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.5))',
                                     flexGrow: 1,
                                     color: theme.palette.text.primary,
                                     fontFamily: '"Orbitron", sans-serif',

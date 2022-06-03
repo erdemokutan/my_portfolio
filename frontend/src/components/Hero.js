@@ -7,6 +7,13 @@ import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 
+    
+
+
+
+
+
+    
 
 
 
@@ -18,7 +25,11 @@ const Hero = () => {
     );
 
     return (
+        
+        
         <div id='home'>
+            
+            
             <Box sx={{ width: 1, height: 1 }}>
                 <Container padding={0} maxWidth='100%'>
                     <Box
@@ -36,12 +47,16 @@ const Hero = () => {
                             <Container>
                                 <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
                                     <Box marginBottom={2}>
+                                    
                                         <Typography
                                             color={theme.palette.text.primary}
                                             variant='h2'
                                             fontWeight={700}
                                             align='center'
+                                           
+
                                         >
+                                            
                                             Hello There{' '} 
                                         </Typography>
                                         <Typography
@@ -61,23 +76,33 @@ const Hero = () => {
                                             color={theme.palette.text.secondary}
                                             align='center'
                                         >
-                                           I am AI enthusiast & Web Developer <br/>
+                                           I am AI enthusiast & Full-Stack Developer <br/>(っ▀¯▀)つ <br/>
                                              I am a self-taught developer with a passion for learning new technologies. <br/><br/><br/>
                                              
+
+                                             
                                         </Typography>
+                                        
                                         <Typography
                                             variant='h6'
                                             component='p'
                                             color='#e5383b'
                                             align='center'
                                         >NOTICE! <br/>I will not be with you for a while as I have to do my military duty <br/> Hope to see you soon <br/>
+                                        
+                                                 
                                           
                                         </Typography>
                                         
+                                        
                                     </Box>
                                     
+                                    
                                 </Box>
+                                
+                                
                             </Container>
+                            
                         </Box>
                         <Box
                             sx={{
@@ -153,6 +178,7 @@ const Hero = () => {
                 <Divider sx={{ mt: 3}} />
             </Box>
         </div>     
+        
     );
 };
 
