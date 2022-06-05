@@ -90,9 +90,12 @@ const Hero = () => {
                                             align='center'
                                         >NOTICE! <br/>I will not be with you for a while as I have to do my military duty <br/> Hope to see you soon <br/>
                                         
+                                        
+
                                                  
                                           
                                         </Typography>
+                                      
                                         
                                         
                                     </Box>
